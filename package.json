@@ -1,0 +1,21 @@
+{
+  "name": "etherpty",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "etherpty": "./bin/etherpty.js",
+    "server": "./bin/server.js"
+  },
+  "author": "miaoever",
+  "license": "ISC",
+  "dependencies": {
+    "pty.js": "^0.2.4",
+    "websocket": "^1.0.8",
+    "minimist": "0.0.8",
+    "JSONStream": "^0.7.1"
+  }
+}
