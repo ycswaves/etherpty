@@ -1,5 +1,6 @@
 #Etherpty
-Etherpty is a real-time remote collaborative terminal. You may share your terminal to remote partners via a unique url link easily.
+Etherpty is a real-time remote collaborative terminal. You can share your terminal to remote partners via a unique url link easily.
+
 #Usage
 On the server side, 
 
@@ -7,14 +8,14 @@ On the server side,
 $ server [-p port]|[--port port]
 ```
 
-If the listening port is not provided, the etherpty server will listening on port 8080.
+If the listening port is not provided, the `etherpty` server will listening on port 8080.
 
 On the master side(whose terminal want to be shared):
 
 ```
 $ etherpty --share http://hostname:port
 ```
-Replace the hostname and port by your own ehterpty server. The server will return a unique sharing URL:
+Replace the hostname and port by your own `etherpty` server. The server will return a unique sharing URL:
 
 ```
 $ etherpty --share http://localhost:8080
