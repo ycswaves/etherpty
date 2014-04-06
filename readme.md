@@ -21,9 +21,6 @@ Replace the hostname and port by your own `etherpty` server. The server will ret
 $ etherpty --share http://localhost:8080
 $ Your shell is shared at: http://localhost:8080/511c2772886991908b5c96cbee362fce
 ```
-
-You just need share the unique sharing URL to you partners.
-
 To access a shared terminal by joining a URL
 
 ```
